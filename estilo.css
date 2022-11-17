@@ -10,13 +10,14 @@ header {
     color: rgb(10, 1, 1);
     text-align: center;
     font: 20pt 'Montserrat', sans-serif;
+    margin: auto;
 }
 
 section {
     background: rgba(255, 254, 254, 0.527);
     border-radius: 20px;
     padding: 15px;
-    width: 500px;
+    max-width: 400px;
     margin: auto; 
 }
 
