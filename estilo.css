@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Libre+Baskerville&family=Montserrat:ital,wght@0,100;0,300;1,200&family=STIX+Two+Text&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-image: linear-gradient(to bottom, rgb(130, 212, 221), rgb(99, 160, 168), rgb(11, 58, 65));
+    font: normal 14pt Arial;
+    
+}
+
+header {
+    color: rgb(10, 1, 1);
+    text-align: center;
+    font: 20pt 'Montserrat', sans-serif;
+}
+
+section {
+    background: rgba(255, 254, 254, 0.527);
+    border-radius: 20px;
+    padding: 15px;
+    width: 500px;
+    margin: auto; 
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+input#num {
+    border-radius: 20px;
+    width: 150px;
+    padding: 10px;
+    font: normal 20pt Arial;
+    background-color: rgba(165, 42, 42, 0);
+}
+
+input#botao {
+    border-radius: 20px;
+    width: 175px;
+    padding: 12px;
+    font: normal 20pt 'Montserrat', sans-serif;
+}
+
+#botao:hover {
+    background-color: rgb(5, 238, 255);
+}
+
+div#res {
+    text-align: center;
+    font: normal 40pt Italic;
+}
+
+div#fim {
+    text-align: center;
+    font: normal 20pt 'Montserrat', sans-serif;
+}
+
+.menu {
+    font: normal 20pt 'Montserrat', sans-serif;
+}

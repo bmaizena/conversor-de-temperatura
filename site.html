@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversão de Temperatura</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Conversão de temperatura</h1>
+    </header>
+    <section>
+        <div class="menu">           
+            <input type="radio" name="conv" id="CtoF" checked>
+            <label for="CtoF">Celsius para Fahrenheit</label>
+            <br><input type="radio" name="conv" id="FtoC">
+            <label for="FtoC">Fahrenheit para Celsius</label>
+            <br><input type="radio" name="conv" id="CtoK">
+            <label for="CtoK">Celsius para Kelvin</label>
+            <br><input type="radio" name="conv" id="KtoC">
+            <label for="KtoC">Kelvin para Celsius</label>
+        </div>
+        <div id="fim">
+            <br> Qual a Temperatura:
+            <br> <br> <input type="number" name="num" id="num">
+            <br> <br> <input type="button" value="Calcular" id= "botao" onclick="calcular()">     
+        </div>
+        <br>
+        <div id="res">
+            
+        </div>
+    </section>
+    <footer>
+        <p>&copy; bmaizena</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
